@@ -25,7 +25,6 @@ npm run dev
 
 ```bash
 docker build -t tp-machine-vue .
-Lancez le container :
 
 ```bash
 
