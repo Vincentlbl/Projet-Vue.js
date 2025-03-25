@@ -7,7 +7,6 @@ Ce projet est une application e-commerce développée avec Vue.js, Vite et TypeS
 - Inscription et connexion (hachage des mots de passe avec bcryptjs)
 - Catalogue de produits et page détail
 - Gestion du panier avec ajout, retrait et modification des quantités
-- Navigation avec boutons (effet hover : noir et blanc)
 - Animations avec animate.css
 - Dockerisation de l'application
 
@@ -24,7 +23,7 @@ Ce projet est une application e-commerce développée avec Vue.js, Vite et TypeS
 npm run dev
 
 
-```L'application sera accessible sur http://localhost:3000.```
+```L'application sera accessible sur http://localhost:3000.
 
 
 3. ** Dockerisation**
