@@ -1,6 +1,39 @@
-# Vue 3 + TypeScript + Vite
+# TP Machine Vue.js
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ce projet est une application e-commerce développée avec Vue.js, Vite et TypeScript. L'application permet aux utilisateurs de s'inscrire, se connecter, consulter un catalogue de produits, ajouter des articles au panier (avec persistance via localStorage) et gérer leur panier.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-# Projet-Vue.js
+## Fonctionnalités
+
+- Inscription et connexion (hachage des mots de passe avec bcryptjs)
+- Catalogue de produits et page détail
+- Gestion du panier avec ajout, retrait et modification des quantités
+- Navigation avec boutons (effet hover : noir et blanc)
+- Animations avec animate.css
+- Dockerisation de l'application
+
+## Installation
+
+1. **Clonez le dépôt et installez les dépendances :**
+   ```bash
+   git clone https://github.com/Vincentlbl/Projet-Vue.js.git
+   cd tp-machine-vue
+   npm install
+
+2. **Lancez le serveur de développement :**
+```bash
+npm run dev```
+
+L'application sera accessible sur http://localhost:3000.
+
+
+## Dockerisation
+Construisez l'image Docker :
+
+```bash
+docker build -t tp-machine-vue .
+Lancez le container :
+
+bash
+
+docker run -p 3000:3000 tp-machine-vue
+L'application sera accessible sur http://localhost:3000.
