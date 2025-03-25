@@ -23,9 +23,7 @@ Ce projet est une application e-commerce développée avec Vue.js, Vite et TypeS
 npm run dev
 
 
-```bash
 docker build -t tp-machine-vue .
 
-```bash
 
 docker run -p 3000:3000 tp-machine-vue
