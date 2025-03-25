@@ -19,11 +19,13 @@ Ce projet est une application e-commerce développée avec Vue.js, Vite et TypeS
    npm install
 
 2. **Lancez le serveur de développement :**
-```bash
-npm run dev
+   ```bash
+   npm run dev
 
+3. **Dockerisation de l'application :**
+   ```bash
+   docker-compose up --build
+   ```
 
-docker build -t tp-machine-vue .
-
-
-docker run -p 3000:3000 tp-machine-vue
+4. **Accédez à l'application :**
+   Ouvrez votre navigateur et allez à `http://localhost:3000`
